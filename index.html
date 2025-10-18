@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ogundimu Emmanuel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container nav">
+      <div class="logo">💻 Emmanuel</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="text">
+        <h2>Hello, It's Me</h2>
+        <h1>Ogundimu Emmanuel Oluwaseyifunmi</h1>
+        <p>I'm a <span class="highlight">Web Developer</span></p>
+        <p class="intro">
+          I create elegant, responsive websites using modern web technologies. Let’s build your next big idea!
+        </p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="projects.html" class="btn">View Portfolio</a>
+      </div>
+      <div class="image">
+        <img src="img.icon.jpg" alt="Avatar" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+   <section id="about" class="about section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <img src="newportemma.jpeg" alt="Ogundimu Emmanuel" class="about-img">
+      <div class="about-text">
+        <p>
+          I'm Ogundimu Emmanuel, a creative developer who thrives on building visually appealing,
+          user-focused, and high-performing digital experiences. I specialize in front-end
+          development and continuously explore modern technologies to elevate every project I work on.
+        </p>
+        <p>
+          I believe in turning ideas into reality through clean design and smart coding. I’m always
+          open to collaboration and new challenges that push the boundaries of creativity.
+        </p>
+      </div>
+    </div>
+  </section>
+
+     <!-- Services Section -->
+   <section id="services" class="section">
+    <h2 class="section-title">My Services</h2>
+    <div class="services-container">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>I build responsive and dynamic websites tailored for businesses, brands, and individuals.</p>
+      </div>
+      <div class="service-card">
+        <h3>UI/UX Design</h3>
+        <p>Beautiful and intuitive designs that ensure users enjoy every click and scroll.</p>
+      </div>
+      <div class="service-card">
+        <h3>Brand Identity</h3>
+        <p>Helping you create a strong digital presence that communicates your brand's story effectively.</p>
+      </div>
+    </div>
+  </section>
+
+   <section id="portfolio" class="section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <img src="project2newportfolio.png" alt="Project 1">
+        <div class="overlay">
+          <h3>Chatbot Interface</h3>
+          <p>Interactive chatbot with typing animation and voice input.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="project1newportfolio.png" alt="Project 2">
+        <div class="overlay">
+          <h3>Portfolio Website</h3>
+          <p>Fully responsive personal portfolio built from scratch.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="project3newportfolio.png" alt="Project 3">
+        <div class="overlay">
+          <h3>Analog Clock</h3>
+          <p>Real-time analog clock with smooth ticking hands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      
+ <!-- Contact -->
+<section id="contact">
+  <h2 class="contact-title">Contact Me</h2>
+
+  <form id="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Your Message</label>
+      <textarea id="message" placeholder="Write your message here..." required></textarea>
+    </div>
+
+    <button type="submit" class="btn-send" id="send-btn">Send Message</button>
+  </form>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container center">
+      <p>&copy; 2025 Ogundimu Emmanuel. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Scroll to Top Button -->
+  <button id="scrollTop">↑</button>
+ <!-- link your scripts -->
+
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script src="email.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
